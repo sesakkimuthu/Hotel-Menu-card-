@@ -1,0 +1,260 @@
+body,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing {
+  background-image: url(./images/pexels-dan-cristian-pădureț-5956193.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: var(black);
+
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 243, 6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  min-width: 120px;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  row-gap: 1em;
+
+}
+
+#logo {
+  flex: 3;
+  font-size: 2.25rem;
+  min-width: 260px;
+
+
+}
+
+header h2 i,
+nav a i {
+  margin-right: .5em;
+}
+
+nav {
+  flex: 2;
+  display: flex;
+  align-items: center;
+
+}
+
+nav a {
+  flex: 1;
+}
+
+nav a:hover {
+  color: rgb(248, 242, 242);
+  font-size: larger;
+}
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.tagline1 {
+  color: rgb(255, 253, 253);
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+}
+
+.tagline2 {
+  color: rgb(248, 243, 243);
+
+}
+
+.maintext div {
+  margin-top: .75rem;
+}
+
+.maintext button {
+  width: 200px;
+  height: 50px;
+  margin-top: 2em;
+  border-radius: 10px;
+  padding: .4em;
+  color: #fbf8f8;
+  border: 1px solid rgb(244, 250, 244);
+  background-color: blue;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.maintext,
+.calls {
+  color: rgb(244, 240, 240);
+  font-weight: bolder;
+  margin-top: 12px;
+
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+}
+
+#menuheading {
+  text-align: center;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  color: rgb(255, 243, 6);
+  ;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+
+}
+
+.main,
+th {
+  color: rgb(250, 248, 248);
+}
+
+table {
+  width: 100%;
+  padding: 1rem;
+}
+
+.menu tr {
+  display: flex;
+  justify-content: center;
+  margin-top: .8em;
+  color: white;
+
+}
+
+.starters {
+  font-size: larger;
+}
+
+.maincourse {
+  font-size: larger;
+}
+.chats {
+  font-size: larger;
+}
+
+
+.menu td:nth-child(1) {
+  flex: 1;
+  justify-self: left;
+}
+
+.menu td:nth-child(2) {
+  justify-self: right;
+}
+
+.maincourse {
+  grid-row: span 2;
+}
+
+#locheading {
+  font-size: 1.75em;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  color: rgb(255, 243, 6);
+  ;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+}
+
+.locations div {
+  padding: 1em;
+  flex: 1;
+
+}
+
+.locations h2 {
+  color: rgb(253, 251, 251);
+  margin-bottom: .8rem;
+  min-width: 220px;
+}
+
+
+
+footer {
+  background-color: rgb(55, 55, 55);
+  color: var(--white);
+  padding: .25em 1em;
+}
+
+#copyright {
+  margin-left: 20px;
+
+}
+
+.social-menu ul {
+  display: flex;
+  padding: 0;
+
+}
+
+.social-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+  font-size: 25px;
+  line-height: 40px;
+  transition: .3s;
+}
+
+.social-menu ul li .fab:hover {
+  color: #fff;
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #4267B2;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #E4405F;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #00ACEE;
+}
